@@ -866,7 +866,7 @@ This project is licensed under the **MIT License** — see the `LICENSE` file fo
 For issues, questions, or feature requests:
 
 - **GitHub Issues:** [FreshRoute Issues](https://github.com/arinatayenjam03-bot/FreshRoute/issues)
-- **Email:** [Contact Project Owner]
+- **Email:** [leimapokpamchingsangamba@gmail.com]
 
 ---
 
