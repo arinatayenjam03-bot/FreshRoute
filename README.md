@@ -6,6 +6,40 @@ FreshRoute tells small farmers exactly where to take their produce based on fres
 
 ---
 
+## Demo & Screenshots
+
+### 🎥 Video Demo
+
+Watch FreshRoute in action on YouTube:
+
+<div align="center">
+  
+[![FreshRoute Demo - AI Routing Platform](https://img.youtube.com/vi/eqnd0IeCWjM/0.jpg)](https://www.youtube.com/watch?v=eqnd0IeCWjM)
+
+**[Click to Watch Full Demo →](https://www.youtube.com/watch?v=eqnd0IeCWjM)**
+
+</div>
+
+### 📱 App Screenshots
+
+#### Dashboard Screen
+| Freshness Monitor | Vendor Selection | Route Analysis |
+|:---:|:---:|:---:|
+| ![complete](https://github.com/arinatayenjam03-bot/FreshRoute/blob/main/docs/screenshots/Mandi%20Aggregators(%20e.g.%20Ninjacart,%20Dehaat).png?raw=true) | 
+| Real-time produce freshness score |
+
+
+### Key Features Showcased
+
+✨ **Real-time Freshness Monitoring** — MQ-135 & DHT-22 sensor integration  
+✨ **AI Route Optimization** — CrewAI + Ollama intelligent routing  
+✨ **Weather-Aware Routing** — Adjusts paths based on rain/storms  
+✨ **Demand Matching** — Prioritizes high-demand vendors  
+✨ **Profit Analysis** — Cost-benefit breakdown via LLM  
+✨ **Regional Market News** — Live market prices & logistics updates  
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -71,6 +105,9 @@ FreshRoute/
 │
 ├── hardware/                        # Sensor firmware & schematics
 │   └── (sensor calibration, Arduino/ESP sketches)
+│
+├── docs/
+│   └── screenshots/                 # App screenshots
 │
 └── README.md                        # This file
 ```
@@ -833,7 +870,7 @@ For issues, questions, or feature requests:
 
 ---
 
-**Built with ❤ for small-scale farmers in North-East India**
+**Built with ❤ for small-scale farmers **
 
 ---
 
@@ -849,4 +886,3 @@ For issues, questions, or feature requests:
 | Get Local IP | `ifconfig` (Mac) / `ipconfig` (Windows) |
 | Test Backend | `curl http://localhost:8000/vendors/` |
 | Clean Flutter | `flutter clean && flutter pub get` |
-
