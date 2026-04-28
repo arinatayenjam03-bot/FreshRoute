@@ -400,12 +400,12 @@ Or via GUI:
 ```bash
 cd FreshRoute/backend
 source venv/bin/activate  # or: venv\Scripts\activate (Windows)
-python freshvend_backend.py
+python freshvend_backend.py # or: python -m uvicorn freshvend_backend:app --reload  
 ```
 
 **Terminal 2 — Ollama:**
 ```bash
-ollama serve
+ollama run qwen2.5:3b
 ```
 
 **Terminal 3 — Frontend:**
@@ -772,7 +772,7 @@ pip install crewai
 ```bash
 # Ensure serviceAccountKey.json in backend/ directory
 export FIREBASE_CREDENTIALS="serviceAccountKey.json"
-python freshvend_backend.py
+python -m uvicorn freshvend_backend:app --reload  
 ```
 
 ### Ollama Connection Issues
@@ -782,7 +782,7 @@ python freshvend_backend.py
 **Solution:**
 ```bash
 # Start Ollama service
-ollama serve
+ollama run qwen2.5:3b
 
 # In separate terminal, verify model is available
 ollama list
@@ -841,8 +841,8 @@ For issues, questions, or feature requests:
 
 | Task | Command |
 |------|---------|
-| Start Backend | `cd backend && python freshvend_backend.py` |
-| Start Ollama | `ollama serve` |
+| Start Backend | `cd backend && python -m uvicorn freshvend_backend:app --reload  ` |
+| Start Ollama | `ollama run qwen2.5:3b` |
 | Run Flutter | `flutter run` |
 | Check Devices | `flutter devices` |
 | Build APK | `flutter build apk --release` |
