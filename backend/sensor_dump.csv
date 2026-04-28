@@ -1,0 +1,9 @@
+temperature,humidity,mq135_ppm,produce_type,farmer_id
+25.10,95.00,1472,vegetable,farmer_1
+25.10,95.00,1484,vegetable,farmer_1
+25.10,95.00,1475,vegetable,farmer_1
+25.10,95.00,1442,vegetable,farmer_1
+25.00,95.00,1455,vegetable,farmer_1
+25.00,95.00,1422,vegetable,farmer_1
+25.00,95.00,1408,vegetable,farmer_1
+25.00,95.00,1389,vegetable,farmer_1
