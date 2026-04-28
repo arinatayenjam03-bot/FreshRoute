@@ -23,10 +23,10 @@ Watch FreshRoute in action on YouTube:
 ### 📱 App Screenshots
 
 #### Dashboard Screen
-| Freshness Monitor | Vendor Selection | Route Analysis |
+| main app ui elements | 
 |:---:|:---:|:---:|
 | ![complete](https://github.com/arinatayenjam03-bot/FreshRoute/blob/main/docs/screenshots/Mandi%20Aggregators(%20e.g.%20Ninjacart,%20Dehaat).png?raw=true) | 
-| Real-time produce freshness score |
+| we have a total of  16 screens but for now here are the main ones |
 
 
 ### Key Features Showcased
