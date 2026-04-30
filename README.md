@@ -1,5 +1,5 @@
 # FreshRoute [with apk file]
-##to test the app please use: ![FreshRoute apk](https://github.com/arinatayenjam03-bot/FreshRoute/blob/main/FreshRoute.apk)
+## to test the app please use: ![ → FreshRoute apk](https://github.com/arinatayenjam03-bot/FreshRoute/blob/main/FreshRoute.apk)
 > **AI-Powered Logistics Platform for Farmer Produce Routing**
 
 FreshRoute tells small farmers exactly where to take their produce based on freshness levels, buyer demand, and optimal routing. Using real-time sensor data, weather intelligence, and agentic AI analysis, FreshRoute maximizes profit and minimizes waste.
